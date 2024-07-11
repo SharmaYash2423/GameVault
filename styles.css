@@ -1,0 +1,175 @@
+header {
+    background-color: #8029c8;
+}
+
+nav {
+    display: flex;
+    justify-content: center; 
+}
+
+nav button a {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+nav button {
+    background-color: transparent; 
+    color: white;
+    text-decoration: none; 
+    border: 2px solid #8029c8;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    transition: all 0.3s ease-in-out; 
+    cursor: pointer; 
+    margin-right: 20px; 
+}
+  
+nav button:hover {
+    border: 2px solid black;
+    background-color: white; 
+    color: black; 
+}
+
+.game-vault-heading {
+    text-align: center; 
+    margin: 20px 0;
+    font-size: 3em;
+    color: #8029c8;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-family: 'Lobster', cursive;
+    letter-spacing: 20px;
+    text-decoration: underline;
+}
+
+.flex-container{
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.flex-items1{
+    margin-bottom: 10px;
+    border: 2px solid #8029c8;
+    flex-direction: row;
+    text-align: left;
+}
+
+.flex-items2{
+    margin-bottom: 10px;
+    border: 2px solid #8029c8;
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.flex-items3{
+    margin-bottom: 10px;
+    border: 2px solid #8029c8;
+    flex-direction: row;
+    text-align: left;
+}
+
+.flex-items4{
+    margin-bottom: 10px;
+    border: 2px solid #8029c8;
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.flex-items5{
+    margin-bottom: 10px;
+    border: 2px solid #8029c8;
+    flex-direction: row;
+    text-align: left;
+}
+
+.flex-items6{
+    margin-bottom: 10px;
+    border: 2px solid #8029c8;
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+img{
+    border: 2px solid lightsalmon;
+    height: 200px;
+    width: fit-content;
+    margin: 5px;
+}
+
+.text-description {
+    text-align: justify; 
+    margin-bottom: 10px; 
+    font-size: 16px; 
+    line-height: 1.5; 
+    color: #333; 
+  }
+  
+  .text-description h2 {
+    font-size: 1.8em; 
+    margin-bottom: 5px;
+  }
+
+figcaption{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: #8029c8;
+    color: white;
+    display: block;
+    margin-top: auto;
+    height: auto;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+    text-decoration: underline;
+}
+  
+main {
+    padding: 20px;
+}
+  
+section {
+    margin-bottom: 20px;
+}
+  
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+  
+p {
+    line-height: 1.5;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: space-around; 
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+.text {
+    text-align: left;
+}
+
+.contact-info {
+    margin-left: 50px;
+    text-align: right;
+    width: 40%; 
+}
+  
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.contact-info li {
+    margin-bottom: 10px;
+}
