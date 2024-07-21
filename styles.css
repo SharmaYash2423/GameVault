@@ -45,58 +45,45 @@ nav button:hover {
     margin: 50px;
     padding: 20px;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     gap: 2px;
 }
 
-.flex-items1{
+.flex-items{
     margin-bottom: 10px;
     border: 2px solid #8029c8;
-    flex-direction: row;
-    text-align: left;
+    border-radius: 5px;
+    background-color: skyblue;
+    padding: 15px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    width: 30%;
+    box-sizing: border-box;
+    flex-direction: column;
+    text-align: center;
 }
 
-.flex-items2{
-    margin-bottom: 10px;
-    border: 2px solid #8029c8;
-    flex-direction: row-reverse;
-    text-align: right;
-}
-
-.flex-items3{
-    margin-bottom: 10px;
-    border: 2px solid #8029c8;
-    flex-direction: row;
-    text-align: left;
-}
-
-.flex-items4{
-    margin-bottom: 10px;
-    border: 2px solid #8029c8;
-    flex-direction: row-reverse;
-    text-align: right;
-}
-
-.flex-items5{
-    margin-bottom: 10px;
-    border: 2px solid #8029c8;
-    flex-direction: row;
-    text-align: left;
-}
-
-.flex-items6{
-    margin-bottom: 10px;
-    border: 2px solid #8029c8;
-    flex-direction: row-reverse;
-    text-align: right;
-}
-
-img{
-    border: 2px solid lightsalmon;
+.flex-items img {
+    width: 100%;
     height: 200px;
-    width: fit-content;
-    margin: 5px;
+    object-fit: cover;
+}
+
+.flex-items:hover {
+    transform: scale(1.1); /* Zoom in on hover effect */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Add subtle hover shadow */
+}
+
+.flex-items h2 {
+    margin-top: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+.flex-items p {
+    margin-top: 10px;
+    line-height: 1.5;
+    color: #333;
 }
 
 .text-description {
@@ -107,10 +94,10 @@ img{
     color: #333; 
   }
   
-  .text-description h2 {
+.text-description h2 {
     font-size: 1.8em; 
     margin-bottom: 5px;
-  }
+}
 
 figcaption{
     text-align: center;
